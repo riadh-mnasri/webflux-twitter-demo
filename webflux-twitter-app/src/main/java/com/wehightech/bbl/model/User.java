@@ -2,9 +2,7 @@ package com.wehightech.bbl.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-/**
- * @author ovaldez
- */
+
 public class User {
 
     @JsonProperty("id_str")
