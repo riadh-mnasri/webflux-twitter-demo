@@ -52,22 +52,16 @@ twitter.secret=<Your Twitter App's Access Token Secret>
   > use twittermdb
   
   switched to db use twittermdb
-  > db.createCollection("tweets", {capped:true, max:1500, size:1000000})
-  {
-  	"ok" : 0,
-  	"errmsg" : "a collection 'cltjug.tweets' already exists",
-  	"code" : 48,
-  	"codeName" : "NamespaceExists"
-  }
-  >
-  
-  show dbs
-  
-  use twittermdb
-  
-  db.tweets.count()
-  
-  db.dropDatabase()
+     > db.tweets.count()
+     51
+     > use twittermdb
+     switched to db twittermdb
+     > db.dropDatabase()
+     { "dropped" : "twittermdb", "ok" : 1 }
+     > use twittermdb
+     switched to db twittermdb
+     > db.createCollection("tweets", {capped:true, max:1500, size:1000000})
+     { "ok" : 1 }
   ```  
 3. Time to compile and build,
 
