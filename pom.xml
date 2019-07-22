@@ -16,8 +16,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Spring Webflux - Twitter API demo</name>
-    <description>Spring Webflux - Twitter Demo for my Charlotte JUG presentation on 6/14/17</description>
+    <name>BBL Spring Webflux - Twitter API demo</name>
+    <description>BBL Spring Webflux - Twitter Demo</description>
 
     <modules>
         <module>twitter-auth-spring-boot-starter</module>

@@ -70,7 +70,7 @@ twitter.secret=<Your Twitter App's Access Token Secret>
 4. Below an example of how to run the program, every argument will be used as a filter track, if no arguments are present a
  default filter will be used. Tracks can be hastags, twitter handler names or just simply some text.
  
-`java -jar webflux-twitter-app/target/webflux-twitter-app-0.0.1-SNAPSHOT.jar "#cltjug" "webflux" "@reactor"`
+`java -jar webflux-twitter-app/target/webflux-twitter-app-0.0.1-SNAPSHOT.jar "#kotlin" "webflux" "@reactor"`
 
 If everything goes well you will start seeing the Tweets in the console, you can curl the tweets enpoint at [http://localhost:9696/tweets](http://localhost:9696/tweets) 
 

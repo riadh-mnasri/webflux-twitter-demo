@@ -2,8 +2,6 @@ package com.wehightech.bbl;
 
 import com.mongodb.reactivestreams.client.MongoClient;
 import com.mongodb.reactivestreams.client.MongoClients;
-import com.orlandovald.twitter.TwitterApiEndpoint;
-import com.orlandovald.twitter.TwitterOAuth;
 import com.wehightech.bbl.model.Tweet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

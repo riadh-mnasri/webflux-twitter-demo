@@ -33,7 +33,7 @@
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.orlandovald</groupId>
+            <groupId>com.wehightech.bbl</groupId>
             <artifactId>twitter-auth-spring-boot-starter</artifactId>
             <version>${project.version}</version>
         </dependency>
