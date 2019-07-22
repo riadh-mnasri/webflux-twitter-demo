@@ -52,7 +52,7 @@
 </div>
 
 <script>
-    var evtSource = new EventSource("http://localhost:8080/tweets");
+    var evtSource = new EventSource("http://localhost:9696/tweets");
     var tweetList = document.getElementById("tweet-list");
     evtSource.onmessage = function (event) {
         var data = JSON.parse(event.data);

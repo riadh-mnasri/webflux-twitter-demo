@@ -44,6 +44,31 @@ twitter.secret=<Your Twitter App's Access Token Secret>
     2. Create the collection with something like `db.createCollection("tweets", {capped:true, max:1500, size:1000000})`
     3. ```db.tweets.find()```
     
+  ```
+  Useful Mongo DB commands:
+  
+  > show collections
+  
+  > use twittermdb
+  
+  switched to db use twittermdb
+  > db.createCollection("tweets", {capped:true, max:1500, size:1000000})
+  {
+  	"ok" : 0,
+  	"errmsg" : "a collection 'cltjug.tweets' already exists",
+  	"code" : 48,
+  	"codeName" : "NamespaceExists"
+  }
+  >
+  
+  show dbs
+  
+  use twittermdb
+  
+  db.tweets.count()
+  
+  db.dropDatabase()
+  ```  
 3. Time to compile and build,
 
 `mvn clean install`
